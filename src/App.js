@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { Grid, Typography } from '@mui/material';
 
 function App() {

@@ -1,4 +1,5 @@
 import { Grid, Typography, Box } from '@mui/material';
+import { TodoListContainer } from './Components/TodoListContainer';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </Grid> 
       <Grid item xs={1} md={2} lg={3}></Grid>
       <Grid item xs={10} md={8} lg={6}>
-        <div style={{border:"1px solid black"}}>Todo List Container</div>
+        <TodoListContainer></TodoListContainer>
       </Grid>
       <Grid item xs={1} md={2} lg={3}></Grid>
     </Grid>
